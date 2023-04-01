@@ -13,7 +13,7 @@ public class GateMsgController {
 
 	@GetMapping("/save")
 	public String index() {
-		return "Greetings from Spring Boot!";
+		return "Message has been saved successfully to MSG table";
 	}
 
 }
