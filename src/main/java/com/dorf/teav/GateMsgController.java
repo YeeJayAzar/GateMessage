@@ -13,7 +13,7 @@ public class GateMsgController {
 
 	@GetMapping("/save")
 	public String index() {
-		return "Message has been saved successfully to MSG table";
+		return "Message has been saved successfully to MSG table - version 2";
 	}
 
 }
